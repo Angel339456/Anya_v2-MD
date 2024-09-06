@@ -8,9 +8,9 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
+    botname: process.env.BotName || "angel",
     footer: process.env.Footer || "© Powered By Queen Anya Bot",
-    prefa: process.env.Prefix || "-",
+    prefa: process.env.Prefix || ".",
     themeemoji: process.env.ThemeEmoji || "🎐",
 
     /**
@@ -29,7 +29,7 @@ module.exports = {
     groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: Number(process.env.Cooldown_Timer_Seconds) || 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://nignanfatao170:girlveSOkHmSyk1Y@cluster0.ackolrc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     sessionId: process.env.SESSION_ID || "cnZmY3B_Queen-Anya_3cWs=",
 
     /**
